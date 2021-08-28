@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#main-container {
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: auto;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.menu {
+    padding-top: 32px;
+}
+
+.Profile {
+    text-align: center;
+    width: 70%;
+    color: #fff;
+    margin: auto;
+    /* margin-top: 24px; */
+    padding-bottom: 24px;
+}
+.bio {
+    color: bisque;
+    font-size: 50px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+.model img {
+    border-radius: 50%;
+}
+.first-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.name h3 {
+    color: bisque;
+    margin-bottom: 24px;
+    margin-top: 24px;
+
+}
+.text p {
+    font-family: sans-serif;
+    color: thistle;
+}
+
+.social-media {
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+.social-media {
+    margin: 30px 0;
+    }
+    
+    .social-media .twitter{
+        margin: 0 20px;
+    }
+    
+/* .social-media .twitter {
+     padding-right: 32px;
+     padding-left: 32px;
+} */
+/* ---------------about me ---------------------- */
+.about-me {
+    width: 80%;
+    margin: auto;
+    gap: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.text2 {
+    
+    margin-top: 32px;
+}
+.text2 ,.text2b {
+    width: 50%;
+}
+.chat {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+.text2 h1 {
+    color: bisque;
+    font-size: 50px;
+}
+.text2b h4{
+    color: bisque;
+    font-size: 20px;
+}
+
+.chat {
+    display: flex;
+}
+.chat img {
+    margin-right: 12px;
+}
+
+/* ---------------------testimony----------------- */
+
+.testimony {
+    padding-top: 5%;
+    color: white;
+    width: 70%;
+    margin: auto;
+}
+.testimony  h1 {
+    font-size: 50px;
+    text-align: center;
+    color: bisque;
+}
+hr{
+    /* width: 70%; */
+    margin-bottom: 24px;
+    margin-top: 24px;
+
+}
+
+.testimony .link  a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 30px;
+    padding-top: -30px;
+
+}
+.testimony .link {
+    text-align: center;
+}
+.arrow img {
+   position: relative;
+   left: 50%;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+/* -----------image gallery------ */
+.img-gallery{
+    margin-top: 32px;
+    width: 80%;
+    background-color: black;
+    overflow: auto;
+    color: rgb(129, 127, 127);
+    margin: 200px;
+    text-align: ;
+    /* margin-left:100px; */
+}
+div.gallery {
+    /* display: flex; */
+    margin: 24px;
+    float: left;
+    width: 300px;
+    
+    
+} 
+.clear {
+    clear:both;
+}
+div.gallery img {
+    width: 100%;
+    border-radius: 10%;  
+    
+}
+
+
+.text4 {
+    width: 70%;
+    display: flex;
+    gap: 10%;
+    margin: auto;
+    margin-bottom: 32px;
+}
+.but {
+    margin: auto;
+    display: block;
+    border: 2px solid wheat;
+    width: 200px;
+    padding: 12px;
+    text-align: center;
+    /* margin-bottom: 32px; */
+    margin-top: 50px;
+    color: white;
+
+}
+.p1 h3 {
+    color: bisque;
+}
+.sign {
+    margin-top: 24px;
+    font-family:Allison;
+}
+/* --------contact-us section ---------------- */
+.contact-us {
+    width: 70%;
+    text-align: center;
+    margin-top: 40px;
+    margin: auto;
+}
+.model3 img {
+    border-radius: 50%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.info  h1 {
+    font-size: 40px;
+    color: bisque;
+}
+.info h3 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.location h3 {
+    color: bisque;
+
+}
+.text4 {
+    margin-top: -40px;
+}
+.border {
+    /* width: 200px; */
+    border-width: 8px;
+    color: 8px solid bisque;
+}
+.send {
+    margin-bottom: 50px;
+}
+
+
+/* -------------footer---------------------- */
+footer {
+    width: 100%;
+    background-color: darkslategrey;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    margin-top: 24px;
+    padding-top: 24px;
+}
+.web  a {
+text-decoration: thistle;
+color: thistle;
+}
+.location h3 {
+    padding: 24px 0 24px 0;
+}
+.border hr {
+    width: 200px;
+    color: wheat;
+    margin: auto;
+    margin-bottom: 24px;
+    background-color: white;
+}
